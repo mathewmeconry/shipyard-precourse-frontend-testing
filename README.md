@@ -10,7 +10,9 @@ Run `yarn` in the root folder to install the dependencies.
 # Compile and deploy the contracts
 Go into the folder `hardhat` and run `npx hardhat compile`.  
 Deploy locally: `npx hardhat run scripts/deploy.js`  
-Deploy rinkeby: `ETH_KEY=YOUR-PRIVATE-KEY npx hardhat run scripts/deploy.js --network rinkeby`  
+Deploy rinkeby: `ETH_KEY=YOUR-PRIVATE-KEY npx hardhat run scripts/deploy.js --network rinkeby`
+
+Grab now the deployed contract addresses and change the old ones in `frontend/src/App.js` on the lines 7 and 8.  
 
 # Run the frontend
 Go into the folder `frontend` and run `yarn run start`
